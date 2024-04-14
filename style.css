@@ -1,0 +1,300 @@
+ 
+.nav-bar{
+     display: flex;
+      align-items: center;
+      justify-content: space-around;
+     padding: 15px 0px 15px 0px;
+}
+
+.nav-bar>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+ }
+
+ 
+.cart>a{
+    text-decoration: none;
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        padding-top: 15px;
+}
+
+
+.start-order a{
+    text-decoration: none;
+    color: black;
+        font-size: large;
+        font-weight: bold;
+        
+}
+
+.sign-in>a{
+    text-decoration: none;
+    color: black;
+        font-size: large;
+        font-weight: bold;
+        margin-top: 5px;
+}
+ 
+.start-order{
+    height: 50px;
+    width:100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.start-order>h2{
+color: white;
+ font-size: 18px;
+}
+.start-order>button{
+border: 1px solid red;
+margin-left: 30px;
+width: 180px;
+height:35px ;
+border-radius: 25px;
+background-color: red;
+color: white;
+
+}
+
+
+
+
+.sign-in{
+    display: flex;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.cart{
+    display: flex;
+    background-color: white;
+    border: 1px solid white;
+}
+.cart>img{
+    /* padding-top: 15px; */
+    height: 50px;
+    width: 50px;
+}
+
+.sign-in>img{
+    padding-top: 5px;;
+    padding-right: 15px;
+}
+
+
+
+.banner>img{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+.categories{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    text-align: center;
+    display: grid;
+ grid-template-columns: 275px 275px 275px 275px;
+  
+}
+     .browse-category{
+        text-align: center;
+     }
+
+.browse{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%
+      
+}
+
+.items{
+    height: 250px;
+    width: 250px;
+    border: 1px solid rgb(248, 246, 246);
+    background-color: rgb(248, 246, 246);
+    border-radius: 2px;
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 5px; */
+    margin-bottom: 25px;
+    /* gap: 15px ; */
+}
+.items>img{
+    height: 80%;
+    width: 100%;
+    
+}
+
+.offer-section{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 85px;
+}
+
+
+.kfc-deals{
+     height:100%;
+  width: auto;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 275px 275px 275px 275px;
+     justify-content: center;
+     background-color: black;
+      
+}
+
+.deals{
+   border:1px solid black;
+    text-align: center;
+margin: 15px 15px 15px 15px;
+border: 1px solid black;
+border-radius: 10px;
+background-color: white;
+}
+
+.deals>h2{
+    color: red;
+}
+
+.deals>img{
+height:250px;
+width:100%;
+border-radius: 10px;
+}
+
+.details{
+display: flex;
+justify-content: space-evenly;
+}
+
+.details>p{
+text-decoration: underline;
+}
+
+.details>button{
+height:40px;
+width:105px;
+border-radius: 25px;
+background-color: white;
+border: 1px solid black;
+}
+
+.kfc-image{
+background-color: black;
+}
+
+.kfc-image>img{
+border: 1px solid black;
+height: 75px;
+width: 105px;
+padding-left: 215px;
+
+}
+
+.offers{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.offers>h1{
+padding-left: 215px;
+color: white;
+}
+
+.offers>p{
+padding-right: 215px;
+color: white;
+}
+
+.terms{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.terms>button{
+
+border: 1px solid black;
+margin: 0px 5px 5px 5px;
+font-size: medium;
+background-color: black;
+color: white;
+text-align: start;
+}
+.footer{
+ border: 1px solid black;
+justify-content: center;
+width: 100%;
+height: 600px;
+text-align: center;
+background-color: black;
+ 
+}
+
+.upper{
+display: flex;
+justify-content: space-evenly;
+border: 1px solid black;
+margin-top: 185px;
+background-color: black;
+}
+
+.find{
+display: flex;
+}
+.find>img{
+padding-top:15px;;
+    padding-right: 5px;
+}
+.find>p{
+color: white;
+text-decoration: underline;
+}
+
+ 
+
+.lower{
+width: 100%;
+ 
+border: 1px solid black;
+display: flex;
+justify-content: center;
+margin-top: 155px;
+background-color: black;
+
+}
+
+.lower>p{
+padding-right: 185px;
+color: white;
+}
+
+.lower>img{
+padding-right: 10px;
+}
+
+.jump>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+#view-all-deals{
+    color: white;
+}
+
+ 
